@@ -1,0 +1,14 @@
+Anda sudah berhasil membuat insert data dan select data dengan PHP
+menggunakan MYSQL. Sudah ada file koneksi dan file insert + select.
+Anda tinggal melanjutkan script yang ada untuk melakukan proses update dan delete
+Tugas anda adalah untuk menambahkan link ke halaman edit dan delete di tiap data.
+Tiap link akan menuju ke halaman edit atau delete.
+Contoh :
+NAMA    NIM     TGL_Lahir   Action
+Patrick 1234    2018-10-04 <a>edit</a> | <a>delete</a>
+
+TIPS :
+Gunakan variabel get untuk memberikan hyperlink ke halaman edit dan delete.
+Di halaman edit maupun delete, gunakan id di parameter get untuk mengambil 
+data maupun delete data. Di halaman edit, nanti akan menampilkan data di form,
+sesuai dengan id data tersebut.
